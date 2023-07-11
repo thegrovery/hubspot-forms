@@ -34,13 +34,17 @@
 		.hbspt-form *{
 			box-sizing: border-box;
 		}
+		.hbspt-form form{
+			background-color: transparent;
+			border: none;
+		}
 		.hbspt-form .hs-form-field{
 			position: relative;
 		}
 		.hbspt-form .hs-form-field label{
 			color: var(--input-color) !important;
 			padding: var(--custom-spacing);
-			font-size: 0.65em;
+			font-size: 1em;
 		}
 		.hbspt-form .hs-form-field input,
 		.hbspt-form .hs-form-field textarea{
@@ -72,7 +76,7 @@
 		}
 		.hbspt-form .hs-error-msgs label{
 			color: var(--custom-black) !important;
-			font-size: 0.5em;
+			font-size: 0.75em;
 			line-height: 1;
 			display: inline-block;
 		}
@@ -114,11 +118,13 @@
 			text-align: center;
 		}
 	</style>
+	
+	<h1>Form Tests</h1>
 
 	<br/><br/><br/>
 
-	<section id="UTMTester" class="box container">
-
+	<section class="box container">
+		<h2>thegrovery.com | Contact Us</h2>
 		<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
 		<script>
 		  hbspt.forms.create({
